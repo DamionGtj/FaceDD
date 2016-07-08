@@ -14,6 +14,10 @@
 		462A419B1D2515E200B727B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462A41991D2515E200B727B1 /* LaunchScreen.storyboard */; };
 		462A41A61D2515E200B727B1 /* FaceDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462A41A51D2515E200B727B1 /* FaceDDTests.swift */; };
 		462A41B11D2515E200B727B1 /* FaceDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462A41B01D2515E200B727B1 /* FaceDDUITests.swift */; };
+		46D5151B1D2F8E2C00C806D9 /* PersonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5151A1D2F8E2C00C806D9 /* PersonVC.swift */; };
+		46D5151D1D2F8E8700C806D9 /* WorkBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5151C1D2F8E8700C806D9 /* WorkBaseVC.swift */; };
+		46D5151F1D2F8EB500C806D9 /* DangBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5151E1D2F8EB500C806D9 /* DangBaseVC.swift */; };
+		46D515211D2F8F8B00C806D9 /* DDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D515201D2F8F8B00C806D9 /* DDNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		462A41AC1D2515E200B727B1 /* FaceDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceDDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		462A41B01D2515E200B727B1 /* FaceDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDDUITests.swift; sourceTree = "<group>"; };
 		462A41B21D2515E200B727B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D5151A1D2F8E2C00C806D9 /* PersonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PersonVC.swift; path = ME/PersonVC.swift; sourceTree = "<group>"; };
+		46D5151C1D2F8E8700C806D9 /* WorkBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkBaseVC.swift; path = Work/WorkBaseVC.swift; sourceTree = "<group>"; };
+		46D5151E1D2F8EB500C806D9 /* DangBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DangBaseVC.swift; path = Dang/DangBaseVC.swift; sourceTree = "<group>"; };
+		46D515201D2F8F8B00C806D9 /* DDNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDNavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +106,13 @@
 			isa = PBXGroup;
 			children = (
 				462A41901D2515E200B727B1 /* AppDelegate.swift */,
-				462A41921D2515E200B727B1 /* ViewController.swift */,
+				46D515201D2F8F8B00C806D9 /* DDNavigationController.swift */,
 				462A41941D2515E200B727B1 /* Main.storyboard */,
-				462A41971D2515E200B727B1 /* Assets.xcassets */,
-				462A41991D2515E200B727B1 /* LaunchScreen.storyboard */,
-				462A419C1D2515E200B727B1 /* Info.plist */,
+				462A41921D2515E200B727B1 /* ViewController.swift */,
+				46D515181D2F7A4000C806D9 /* Me */,
+				46D515171D2F7A3800C806D9 /* Work */,
+				46D515161D2F7A3100C806D9 /* Dang */,
+				46D515191D2F7A5400C806D9 /* SupportingFiles */,
 			);
 			path = FaceDD;
 			sourceTree = "<group>";
@@ -123,6 +133,40 @@
 				462A41B21D2515E200B727B1 /* Info.plist */,
 			);
 			path = FaceDDUITests;
+			sourceTree = "<group>";
+		};
+		46D515161D2F7A3100C806D9 /* Dang */ = {
+			isa = PBXGroup;
+			children = (
+				46D5151E1D2F8EB500C806D9 /* DangBaseVC.swift */,
+			);
+			name = Dang;
+			sourceTree = "<group>";
+		};
+		46D515171D2F7A3800C806D9 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				46D5151C1D2F8E8700C806D9 /* WorkBaseVC.swift */,
+			);
+			name = Work;
+			sourceTree = "<group>";
+		};
+		46D515181D2F7A4000C806D9 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				46D5151A1D2F8E2C00C806D9 /* PersonVC.swift */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		46D515191D2F7A5400C806D9 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				462A41971D2515E200B727B1 /* Assets.xcassets */,
+				462A41991D2515E200B727B1 /* LaunchScreen.storyboard */,
+				462A419C1D2515E200B727B1 /* Info.plist */,
+			);
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				462A41931D2515E200B727B1 /* ViewController.swift in Sources */,
+				46D5151F1D2F8EB500C806D9 /* DangBaseVC.swift in Sources */,
 				462A41911D2515E200B727B1 /* AppDelegate.swift in Sources */,
+				46D5151D1D2F8E8700C806D9 /* WorkBaseVC.swift in Sources */,
+				46D5151B1D2F8E2C00C806D9 /* PersonVC.swift in Sources */,
+				46D515211D2F8F8B00C806D9 /* DDNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +530,7 @@
 				462A41B71D2515E300B727B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		462A41B81D2515E300B727B1 /* Build configuration list for PBXNativeTarget "FaceDDTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +539,7 @@
 				462A41BA1D2515E300B727B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		462A41BB1D2515E300B727B1 /* Build configuration list for PBXNativeTarget "FaceDDUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +548,7 @@
 				462A41BD1D2515E300B727B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
