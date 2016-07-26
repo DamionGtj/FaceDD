@@ -197,6 +197,7 @@ class PayrollCalculatorVC: UIViewController,UITableViewDataSource,UITableViewDel
                 wages = 0
             }
             else{
+                
                 wages = Double (textField.text!)!
             }
         case 1:
