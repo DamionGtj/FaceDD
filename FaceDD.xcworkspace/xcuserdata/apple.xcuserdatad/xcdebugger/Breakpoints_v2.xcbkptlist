@@ -26,6 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "FaceDD/Work/PayrollCalculatorVC.swift"
+<<<<<<< HEAD
             timestampString = "491187418.288522"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -33,6 +34,15 @@
             endingLineNumber = "251"
             landmarkName = "PayrollCalculatorVC"
             landmarkType = "3">
+=======
+            timestampString = "491186285.198406"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "219"
+            endingLineNumber = "219"
+            landmarkName = "calculateWages(_:)"
+            landmarkType = "5">
+>>>>>>> DamionGtj/master
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
