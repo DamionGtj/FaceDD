@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18CE5C831D3F162300DE3D41 /* AuxiliaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE5C801D3F162300DE3D41 /* AuxiliaryModels.swift */; };
+		18CE5C841D3F162300DE3D41 /* CyclePictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE5C811D3F162300DE3D41 /* CyclePictureCell.swift */; };
+		18CE5C851D3F162300DE3D41 /* CyclePictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE5C821D3F162300DE3D41 /* CyclePictureView.swift */; };
+		18CE5C881D3F162D00DE3D41 /* UIDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE5C871D3F162D00DE3D41 /* UIDefine.swift */; };
+		18CE5C8D1D3F164000DE3D41 /* PayrollCalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE5C891D3F164000DE3D41 /* PayrollCalculatorVC.swift */; };
+		18CE5C8E1D3F164000DE3D41 /* WorkBaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE5C8A1D3F164000DE3D41 /* WorkBaseCollectionCell.swift */; };
+		18CE5C8F1D3F164000DE3D41 /* WorkLogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE5C8B1D3F164000DE3D41 /* WorkLogVC.swift */; };
+		18CE5C901D3F164000DE3D41 /* WorkNoticeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE5C8C1D3F164000DE3D41 /* WorkNoticeVC.swift */; };
+		18CE5C971D3F21FB00DE3D41 /* PayrollCalculatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE5C961D3F21FB00DE3D41 /* PayrollCalculatorTableViewCell.swift */; };
+		18CE5C9A1D3F658800DE3D41 /* inputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CE5C991D3F658800DE3D41 /* inputTextView.swift */; };
 		462A41911D2515E200B727B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462A41901D2515E200B727B1 /* AppDelegate.swift */; };
 		462A41931D2515E200B727B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462A41921D2515E200B727B1 /* ViewController.swift */; };
 		462A41961D2515E200B727B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462A41941D2515E200B727B1 /* Main.storyboard */; };
@@ -18,6 +28,7 @@
 		46D5151D1D2F8E8700C806D9 /* WorkBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5151C1D2F8E8700C806D9 /* WorkBaseVC.swift */; };
 		46D5151F1D2F8EB500C806D9 /* DangBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D5151E1D2F8EB500C806D9 /* DangBaseVC.swift */; };
 		46D515211D2F8F8B00C806D9 /* DDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D515201D2F8F8B00C806D9 /* DDNavigationController.swift */; };
+		592CCD9F9A11141C6DB81D41 /* Pods_FaceDD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4225E632615722D26BA85FB2 /* Pods_FaceDD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +49,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18CE5C7D1D3F161400DE3D41 /* FaceDD-bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FaceDD-bridge-Header.h"; sourceTree = "<group>"; };
+		18CE5C801D3F162300DE3D41 /* AuxiliaryModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuxiliaryModels.swift; sourceTree = "<group>"; };
+		18CE5C811D3F162300DE3D41 /* CyclePictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclePictureCell.swift; sourceTree = "<group>"; };
+		18CE5C821D3F162300DE3D41 /* CyclePictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CyclePictureView.swift; sourceTree = "<group>"; };
+		18CE5C871D3F162D00DE3D41 /* UIDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDefine.swift; sourceTree = "<group>"; };
+		18CE5C891D3F164000DE3D41 /* PayrollCalculatorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PayrollCalculatorVC.swift; path = Work/PayrollCalculatorVC.swift; sourceTree = "<group>"; };
+		18CE5C8A1D3F164000DE3D41 /* WorkBaseCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkBaseCollectionCell.swift; path = Work/WorkBaseCollectionCell.swift; sourceTree = "<group>"; };
+		18CE5C8B1D3F164000DE3D41 /* WorkLogVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkLogVC.swift; path = Work/WorkLogVC.swift; sourceTree = "<group>"; };
+		18CE5C8C1D3F164000DE3D41 /* WorkNoticeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkNoticeVC.swift; path = Work/WorkNoticeVC.swift; sourceTree = "<group>"; };
+		18CE5C961D3F21FB00DE3D41 /* PayrollCalculatorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayrollCalculatorTableViewCell.swift; sourceTree = "<group>"; };
+		18CE5C991D3F658800DE3D41 /* inputTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inputTextView.swift; sourceTree = "<group>"; };
+		3E9ACFA1E9AEA1996566C0EF /* Pods-FaceDD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceDD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaceDD/Pods-FaceDD.debug.xcconfig"; sourceTree = "<group>"; };
+		4225E632615722D26BA85FB2 /* Pods_FaceDD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceDD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		462A418D1D2515E200B727B1 /* FaceDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		462A41901D2515E200B727B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		462A41921D2515E200B727B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +79,7 @@
 		46D5151C1D2F8E8700C806D9 /* WorkBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WorkBaseVC.swift; path = Work/WorkBaseVC.swift; sourceTree = "<group>"; };
 		46D5151E1D2F8EB500C806D9 /* DangBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DangBaseVC.swift; path = Dang/DangBaseVC.swift; sourceTree = "<group>"; };
 		46D515201D2F8F8B00C806D9 /* DDNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDNavigationController.swift; sourceTree = "<group>"; };
+		DEEBCE00A023A962825A4E58 /* Pods-FaceDD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceDD.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaceDD/Pods-FaceDD.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				592CCD9F9A11141C6DB81D41 /* Pods_FaceDD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +108,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18CE5C7E1D3F162300DE3D41 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				18CE5C7F1D3F162300DE3D41 /* CyclePictureView */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		18CE5C7F1D3F162300DE3D41 /* CyclePictureView */ = {
+			isa = PBXGroup;
+			children = (
+				18CE5C801D3F162300DE3D41 /* AuxiliaryModels.swift */,
+				18CE5C811D3F162300DE3D41 /* CyclePictureCell.swift */,
+				18CE5C821D3F162300DE3D41 /* CyclePictureView.swift */,
+			);
+			path = CyclePictureView;
+			sourceTree = "<group>";
+		};
+		18CE5C861D3F162D00DE3D41 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				18CE5C871D3F162D00DE3D41 /* UIDefine.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		18CE5C911D3F1E3F00DE3D41 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				18CE5C8A1D3F164000DE3D41 /* WorkBaseCollectionCell.swift */,
+				18CE5C961D3F21FB00DE3D41 /* PayrollCalculatorTableViewCell.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		18CE5C921D3F1E4900DE3D41 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		18CE5C951D3F1E9E00DE3D41 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46D5151C1D2F8E8700C806D9 /* WorkBaseVC.swift */,
+				18CE5C8B1D3F164000DE3D41 /* WorkLogVC.swift */,
+				18CE5C8C1D3F164000DE3D41 /* WorkNoticeVC.swift */,
+				18CE5C891D3F164000DE3D41 /* PayrollCalculatorVC.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		18CE5C981D3F654400DE3D41 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				18CE5C991D3F658800DE3D41 /* inputTextView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		462A41841D2515E200B727B1 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +176,8 @@
 				462A41A41D2515E200B727B1 /* FaceDDTests */,
 				462A41AF1D2515E200B727B1 /* FaceDDUITests */,
 				462A418E1D2515E200B727B1 /* Products */,
+				4E2F0E263BAD6C840456A037 /* Pods */,
+				51D4A4569069ED1BECA35BE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,10 +194,14 @@
 		462A418F1D2515E200B727B1 /* FaceDD */ = {
 			isa = PBXGroup;
 			children = (
+				18CE5C7D1D3F161400DE3D41 /* FaceDD-bridge-Header.h */,
 				462A41901D2515E200B727B1 /* AppDelegate.swift */,
 				46D515201D2F8F8B00C806D9 /* DDNavigationController.swift */,
 				462A41941D2515E200B727B1 /* Main.storyboard */,
 				462A41921D2515E200B727B1 /* ViewController.swift */,
+				18CE5C981D3F654400DE3D41 /* CustomView */,
+				18CE5C861D3F162D00DE3D41 /* Common */,
+				18CE5C7E1D3F162300DE3D41 /* Vender */,
 				46D515181D2F7A4000C806D9 /* Me */,
 				46D515171D2F7A3800C806D9 /* Work */,
 				46D515161D2F7A3100C806D9 /* Dang */,
@@ -146,7 +239,9 @@
 		46D515171D2F7A3800C806D9 /* Work */ = {
 			isa = PBXGroup;
 			children = (
-				46D5151C1D2F8E8700C806D9 /* WorkBaseVC.swift */,
+				18CE5C951D3F1E9E00DE3D41 /* ViewController */,
+				18CE5C921D3F1E4900DE3D41 /* model */,
+				18CE5C911D3F1E3F00DE3D41 /* cell */,
 			);
 			name = Work;
 			sourceTree = "<group>";
@@ -169,6 +264,23 @@
 			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
+		4E2F0E263BAD6C840456A037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E9ACFA1E9AEA1996566C0EF /* Pods-FaceDD.debug.xcconfig */,
+				DEEBCE00A023A962825A4E58 /* Pods-FaceDD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		51D4A4569069ED1BECA35BE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4225E632615722D26BA85FB2 /* Pods_FaceDD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 462A41B51D2515E300B727B1 /* Build configuration list for PBXNativeTarget "FaceDD" */;
 			buildPhases = (
+				BBF41618002326DF8E8E091F /* [CP] Check Pods Manifest.lock */,
 				462A41891D2515E200B727B1 /* Sources */,
 				462A418A1D2515E200B727B1 /* Frameworks */,
 				462A418B1D2515E200B727B1 /* Resources */,
+				B19758972F6472D3D1C6A302 /* [CP] Embed Pods Frameworks */,
+				A2E602014A63D3E8A0E947D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -295,16 +410,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A2E602014A63D3E8A0E947D3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceDD/Pods-FaceDD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B19758972F6472D3D1C6A302 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaceDD/Pods-FaceDD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF41618002326DF8E8E091F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		462A41891D2515E200B727B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				462A41931D2515E200B727B1 /* ViewController.swift in Sources */,
+				18CE5C8E1D3F164000DE3D41 /* WorkBaseCollectionCell.swift in Sources */,
+				18CE5C8D1D3F164000DE3D41 /* PayrollCalculatorVC.swift in Sources */,
+				18CE5C901D3F164000DE3D41 /* WorkNoticeVC.swift in Sources */,
 				46D5151F1D2F8EB500C806D9 /* DangBaseVC.swift in Sources */,
+				18CE5C8F1D3F164000DE3D41 /* WorkLogVC.swift in Sources */,
+				18CE5C881D3F162D00DE3D41 /* UIDefine.swift in Sources */,
+				18CE5C831D3F162300DE3D41 /* AuxiliaryModels.swift in Sources */,
+				18CE5C851D3F162300DE3D41 /* CyclePictureView.swift in Sources */,
 				462A41911D2515E200B727B1 /* AppDelegate.swift in Sources */,
 				46D5151D1D2F8E8700C806D9 /* WorkBaseVC.swift in Sources */,
+				18CE5C971D3F21FB00DE3D41 /* PayrollCalculatorTableViewCell.swift in Sources */,
+				18CE5C841D3F162300DE3D41 /* CyclePictureCell.swift in Sources */,
 				46D5151B1D2F8E2C00C806D9 /* PersonVC.swift in Sources */,
+				18CE5C9A1D3F658800DE3D41 /* inputTextView.swift in Sources */,
 				46D515211D2F8F8B00C806D9 /* DDNavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,23 +618,29 @@
 		};
 		462A41B61D2515E300B727B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E9ACFA1E9AEA1996566C0EF /* Pods-FaceDD.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FaceDD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjlp.FaceDD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Downloads/FaceDD-developer/FaceDD/FaceDD-bridge-Header.h";
 			};
 			name = Debug;
 		};
 		462A41B71D2515E300B727B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEEBCE00A023A962825A4E58 /* Pods-FaceDD.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FaceDD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zjlp.FaceDD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/apple/Downloads/FaceDD-developer/FaceDD/FaceDD-bridge-Header.h";
 			};
 			name = Release;
 		};

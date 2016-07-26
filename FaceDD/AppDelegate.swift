@@ -12,10 +12,46 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+//    var rootViewController: UIViewController!
+//    var navigationController: DDNavigationController!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+//         Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window?.backgroundColor = UIColor.whiteColor()
+        
+        let dangVC = DangBaseViewController()
+        let nav1 = UINavigationController(rootViewController:dangVC)
+        let image1 = UIImage(named: "dang_unselect")
+        nav1.tabBarItem = UITabBarItem(title: "Dang",image:image1,tag:1)
+        
+        let workVC = WorkBaseViewController()
+        let nav2 = UINavigationController(rootViewController:workVC)
+        let image2 = UIImage(named: "work_unselect")
+        nav2.tabBarItem = UITabBarItem(title: "工作",image:image2,tag:2)
+        
+        let mineVC = PersonViewController()
+        let nav3 = UINavigationController(rootViewController:mineVC)
+        let image3 = UIImage(named: "mine_unselect")
+        nav3.tabBarItem = UITabBarItem(title: "我",image:image3,tag:3)
+        
+        let navArr = [nav1,nav2,nav3]
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = navArr
+        self.window!.rootViewController = tabBarController;
+        
+        
+        
+        window!.makeKeyAndVisible()
+        
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        rootViewController = storyboard.instantiateViewControllerWithIdentifier("tabBarController")
+//        
+//        navigationController = DDNavigationController(rootViewController: rootViewController)
+//        
+//        window!.rootViewController = rootViewController
+//        window!.addSubview(navigationController.view)
+        
         return true
     }
 

@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" tag="1" title="工作" id="wGL-VA-oWa"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="工作" image="work_unselect" selectedImage="work_select" id="wGL-VA-oWa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a0x-1T-ohJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -37,7 +37,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" tag="2" title="我" id="knr-PO-iGk"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="我" image="mine_unselect" selectedImage="mine_select" id="knr-PO-iGk"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZOX-pV-IdR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -56,7 +56,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Dang" id="yqW-4m-k79"/>
+                    <tabBarItem key="tabBarItem" title="Dang" image="dang_unselect" selectedImage="dang_select" id="yqW-4m-k79"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a0N-ut-afz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -65,8 +65,10 @@
         <!--Tab Bar Controller-->
         <scene sceneID="hYc-p3-azS">
             <objects>
-                <tabBarController hidesBottomBarWhenPushed="YES" id="2ic-BC-u38" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="0gF-bY-Mpt"/>
+                <tabBarController storyboardIdentifier="tabBarController" hidesBottomBarWhenPushed="YES" id="2ic-BC-u38" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="0gF-bY-Mpt">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Owr-iv-5Gg"/>
+                    </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="1v9-YE-gCu">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -102,4 +104,12 @@
             <point key="canvasLocation" x="565" y="1162"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="dang_select" width="25" height="25"/>
+        <image name="dang_unselect" width="25" height="25"/>
+        <image name="mine_select" width="25" height="25"/>
+        <image name="mine_unselect" width="25" height="25"/>
+        <image name="work_select" width="25" height="25"/>
+        <image name="work_unselect" width="25" height="25"/>
+    </resources>
 </document>
