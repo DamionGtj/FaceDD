@@ -191,7 +191,6 @@ class PayrollCalculatorVC: UIViewController,UITableViewDataSource,UITableViewDel
     func calculateWages(textField:UITextField){
         
         print("编辑")
-<<<<<<< HEAD
         switch textField.tag {
         case 0:
             if (textField.text?.characters.count == 0){
@@ -238,26 +237,6 @@ class PayrollCalculatorVC: UIViewController,UITableViewDataSource,UITableViewDel
             }
         default:
             break
-=======
-        if (textField.text?.characters.count != 0)
-        {
-            switch textField.tag {
-            case 0:
-                wages = Double (textField.text!)!
-            case 1:
-                performance = Double (textField.text!)!
-            case 2:
-                overtime = Double (textField.text!)!
-            case 3:
-                casualLeave = Double (textField.text!)!
-            case 4:
-                sickLeave = Double (textField.text!)!
-            case 5:
-                late = Double (textField.text!)!
-            default:
-                break
-            }
->>>>>>> DamionGtj/master
         }
         var finalWages = 0.0
         //加班绩效
